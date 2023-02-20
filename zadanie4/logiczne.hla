@@ -1,0 +1,8 @@
+program zmienne;
+#include( "stdlib.hhf" );
+    static
+        zmiennaOne: boolean := true;
+        zmiennaTwo: boolean := false;
+    begin zmienne;
+    stdout.put("Wartosc jeden: ",zmiennaOne,nl,"Zmienna dwa: ",zmiennaTwo,nl);
+end zmienne;

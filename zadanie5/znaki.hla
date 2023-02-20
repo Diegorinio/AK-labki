@@ -1,0 +1,10 @@
+program zmienne;
+#include( "stdlib.hhf" );
+    static
+        znakOne: char := 'A';
+        znakTwo: char;
+    begin zmienne;
+        stdout.put("Znak A: ", znakOne,nl, "Wprowadz znak: ");
+        stdin.get(znakTwo);
+        stdout.put("Znak wprowadzony: ", znakTwo, nl);
+end zmienne;

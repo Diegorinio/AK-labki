@@ -1,0 +1,12 @@
+program zmienne;
+#include( "stdlib.hhf" );
+    static
+        zmiennaOne: boolean := true;
+        zmiennaTwo: boolean := false;
+        zmiennaA: int8 := 25;
+    begin zmienne;
+        stdout.put("Wartosc jeden: ",zmiennaA,nl,"Zmienna dwa: ",zmiennaTwo,nl);
+        mov( 15, zmiennaA);
+        mov( true, zmiennaTwo);
+        stdout.put("Wartosc jeden: ",zmiennaA,nl,"Zmienna dwa: ",zmiennaTwo,nl);
+end zmienne;

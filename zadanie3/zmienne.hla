@@ -1,0 +1,8 @@
+program zmienne;
+#include( "stdlib.hhf" );
+    static
+        zmiennaOne: int8 := 9;
+        zmiennaTwo: int8;
+    begin zmienne;
+    stdout.put("Wartosc jeden: ",zmiennaOne,nl,"Zmienna dwa ",zmiennaTwo,nl);
+end zmienne;
